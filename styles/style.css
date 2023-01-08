@@ -1,0 +1,187 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+/* header style */
+.header {
+    background: #FFF8F3;
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom:150px;
+    padding:50px;
+}
+
+.div1 {
+    text-align: right;
+}
+
+.h3 {
+    margin-top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding-right: 80px;
+
+}
+
+.p {
+    margin-top: 24px;
+    font: weight:400px;
+    font-size: 16px;
+    color: #444343;
+    padding-right: 80px;
+
+
+}
+
+.btn {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 35px;
+    background-color: #F15B22;
+    margin-right: 80px;
+    margin-bottom: 20px;
+
+}
+
+/* main & section */
+.sectiondiv1 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    margin-bottom:150px;
+
+}
+
+.sectiondiv2 {}
+
+.sectiondiv3 {
+    padding: 0 10px;
+
+}
+
+.sectiondiv4 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.sectiondiv5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+    color: #444343;
+    margin-bottom: 24px;
+}
+
+.sectiondiv6 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style: none;
+
+}
+
+/* end section */
+/* new section */
+.myplans {
+    margin: bottom 150px;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+
+}
+
+
+.skill-descripttion {
+    color: #737272;
+}
+/* section close */
+/* new section */
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+.contact{
+    display:flex;
+    gap:100px;
+    background: #151414;
+    padding:130px 200px;
+    text-decoration: none;
+}
+.contact .section-title1{
+    text-align: left;
+    color: #FFFFFF;  
+
+}
+.contact input,textarea{
+    margin-bottom:24px;
+    border:0;
+    width:100%;
+    padding:18 30px;
+    border-radius:5px;
+}
+.section-title1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size:35px;
+    margin: bottom 20px;;
+}
+input{
+    height:64px;}
+.contact p{
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+.btn2{
+    font-weight: 700;
+    font-size:45px;
+    color: #151414;
+    padding:18 30;
+    
+}
