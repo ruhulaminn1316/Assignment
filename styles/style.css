@@ -11,8 +11,8 @@
     background-size: cover;
     text-align: right;
     margin-top: 0;
-    margin-bottom:150px;
-    padding:50px;
+    margin-bottom: 150px;
+    padding: 50px;
 }
 
 .div1 {
@@ -58,7 +58,7 @@
     justify-content: center;
     gap: 35px;
     align-items: center;
-    margin-bottom:150px;
+    margin-bottom: 150px;
 
 }
 
@@ -133,10 +133,43 @@
 .skill-descripttion {
     color: #737272;
 }
+
 /* section close */
 /* new section */
+.extra {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 20px;
+    display: flex;
 
 
+}
+
+.extra1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.extra2 {
+    margin-top: 10px;
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #Ffffff;
+    margin-bottom: 20px;
+
+
+}
 
 
 
@@ -146,42 +179,72 @@
 
 
 /* footer  */
-.contact{
-    display:flex;
-    gap:100px;
-    background: #151414;
-    padding:130px 200px;
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #151414;
+    padding: 130px 200px;
     text-decoration: none;
 }
-.contact .section-title1{
-    text-align: left;
-    color: #FFFFFF;  
 
+.contact .section-title1 {
+    text-align: left;
+    margin-bottom: 20px;
 }
-.contact input,textarea{
-    margin-bottom:24px;
-    border:0;
-    width:100%;
-    padding:18 30px;
-    border-radius:5px;
+
+.contact input,
+textarea {
+    border: 0;
+    padding: 18 30px;
+    border-radius: 8px;
 }
-.section-title1{
+
+.section-title1 {
     color: #FFFFFF;
     font-weight: 700;
-    font-size:35px;
-    margin: bottom 20px;;
+    font-size: 45px;
+    margin bottom: 20px;
 }
-input{
-    height:64px;}
-.contact p{
+
+input {
+    height: 64px;
+}
+
+.contact p {
     font-weight: 400;
     color: #FFFFFF;
-    
+
 }
-.btn2{
-    font-weight: 700;
-    font-size:45px;
-    color: #151414;
-    padding:18 30;
-    
+
+.btn2 {
+    background: #FFF8F3;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20 36;
+    height: 64px;
+    width: 170px;
+    border-radius: 8px;
+    margin-top: 15px;
+
+
+
 }
+
+.email {
+    height: 64px;
+    width: 325px;
+    color: #FFF8F3;
+    background: #151414;
+    font-weight: 400;
+    font-size: 18px;
+    border: #FFF8F3 solid;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.left-div {
+    padding-left: 5px;
+}
+
+/* end  */
